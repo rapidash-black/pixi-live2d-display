@@ -24,6 +24,19 @@ const assets = [
                 outputFile: coreDir + "live2dcubismcore.d.ts",
             },
         ],
+  },
+     {
+        url: "https://cubism.live2d.com/sdk-web/bin/CubismSdkForWeb-5-r.1.zip",
+        zipEntries: [
+            {
+                entryFile: "CubismSdkForWeb-5-r.1/Core/live2dcubismcore.js",
+                outputFile: coreDir + "live2dcubismcore.js",
+            },
+            {
+                entryFile: "CubismSdkForWeb-5-r.1/Core/live2dcubismcore.d.ts",
+                outputFile: coreDir + "live2dcubismcore.d.ts",
+            },
+        ],
     },
 ];
 
